@@ -80,9 +80,9 @@ a:hover {
 	color: #ff0;
 }
 
-/*----------main #ancap_institute----------*/
+/*----------main #welcome----------*/
 
-#ancap_institute {
+#welcome {
 	padding-top: 70px;
 	margin-top: -70px;
 }
@@ -97,9 +97,9 @@ a:hover {
 	gap: 50px;
 }
 
-/*----------main #wire----------*/
+/*----------main #projects----------*/
 
-#wire {
+#projects {
 	padding-top: 60px;
 	margin-top: -60px;
 }
@@ -130,15 +130,15 @@ a:hover {
 	color: #ff5;
 }
 
-/*----------main #subscribe----------*/
+/*----------main #contact----------*/
 
-#subscribe {
+#contact {
 	padding: 110px 50px 50px 50px;
 	margin-top: -60px;
 	
 }
 
-#subscribe div {
+#contact div {
 	padding: 10px;
 	border: 1px solid yellow;
 	display: flex;
