@@ -83,28 +83,28 @@ a:hover {
 /*----------main #welcome----------*/
 
 #welcome {
-	/*padding-top: 60px;
-	margin-top: -60px;*/
+	padding-top: 60px;
+	margin-top: -60px;
 }
 
-#ancap_section {
+#welcome_hi {
 	text-align: center;
 }
 
-#ancap_main {
+#welcome_main {
 	display: flex;
 	flex-direction: row;
 	gap: 50px;
 }
 
-/*----------main #my_projects----------*/
+/*----------main #projects----------*/
 
-#my_projects {
+#projects {
 	padding-top: 60px;
 	margin-top: -60px;
 }
 
-#wire_section {
+#projects_portfolio {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -113,11 +113,11 @@ a:hover {
 	gap: 20px;
 }
 
-#wire_section a {
+#projects_portfolio a {
 	flex: 1 1 0%;
 }
 
-#wire_section img {
+#projects_portfolio img {
 	max-width: 100%;
 }
 
