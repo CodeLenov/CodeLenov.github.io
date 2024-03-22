@@ -1,0 +1,173 @@
+/*----------body----------*/
+
+body {
+	font-family: Arial, sans-serif;
+	text-align: justify;
+	margin: 0;
+}
+
+/*----------header----------*/
+
+header {
+	background-color: #555;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header img {
+	width: 107px;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+header h1 {
+	color: #ff0;
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	order: 1;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	text-align: center;
+	display: block;
+}
+
+li a:hover {
+	background-color: #111;
+	color: #ff0;
+}
+
+/*----------main----------*/
+
+main {
+	background-color: #111;
+	color: #ff9;
+	padding: 60px 20px 20px 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #ff9;
+}
+
+a:hover {
+	color: #ff0;
+}
+
+/*----------main #ancap_institute----------*/
+
+#ancap_institute {
+	padding-top: 70px;
+	margin-top: -70px;
+}
+
+#ancap_section {
+	text-align: center;
+}
+
+#ancap_main {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+}
+
+/*----------main #wire----------*/
+
+#wire {
+	padding-top: 60px;
+	margin-top: -60px;
+}
+
+#wire_section {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	gap: 20px;
+}
+
+#wire_section a {
+	flex: 1 1 0%;
+}
+
+#wire_section img {
+	max-width: 100%;
+}
+
+#wire_blockquote {
+	background-color: #222;
+	padding: 50px 200px;
+}
+
+#wire_blockquote blockquote {
+	color: #ff5;
+}
+
+/*----------main #subscribe----------*/
+
+#subscribe {
+	padding: 110px 50px 50px 50px;
+	margin-top: -60px;
+	
+}
+
+#subscribe div {
+	padding: 10px;
+	border: 1px solid yellow;
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+}
+
+button {
+	background-color: #ff0;
+	font-size: 40px;
+	text-align: center;
+	border: none;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+/*----------footer----------*/
+
+footer {
+	background-color: #000;
+	color: #999;
+	padding: 10px;
+	margin: -16px 0 -16px 0;
+	text-align: right;
+	font-size: 12px;
+}
+
+footer p {
+	margin: 0;
+}
