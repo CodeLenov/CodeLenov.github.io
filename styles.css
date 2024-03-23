@@ -6,6 +6,11 @@ body {
 	margin: 0;
 }
 
+li a:hover {
+	background-color: #111;
+	color: #ff0;
+}
+
 /*----------header----------*/
 
 header {
@@ -38,25 +43,20 @@ nav {
 	order: 1;
 }
 
-ul {
+nav ul {
 	list-style-type: none;
 }
 
-li {
+nav li {
 	display: inline-block;
 }
 
-li a {
+nav li a {
 	text-decoration: none;
 	color: #f99;
 	padding: 5px 20px;
 	text-align: center;
 	display: block;
-}
-
-li a:hover {
-	background-color: #111;
-	color: #ff0;
 }
 
 /*----------main----------*/
@@ -94,7 +94,18 @@ a:hover {
 #welcome_main {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-evenly;
 	gap: 50px;
+}
+
+#welcome li {
+	display: block;
+}
+
+#welcome_skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 /*----------main #projects----------*/
