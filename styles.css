@@ -158,16 +158,18 @@ a {
 	gap: 50px;
 }
 
+#contact a {
+	text-align: center;
+	flex: 1;
+}
+
 #contact button {
 	background-color: #ff0;
 	font-size: 40px;
+	flex: 1;
 	text-align: center;
 	border: none;
 	margin: auto;
-	
-	/*display: flex;
-	flex-direction: column;
-	align-self: center;*/
 }
 
 #contact button:hover {
