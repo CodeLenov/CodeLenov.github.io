@@ -111,6 +111,16 @@ a {
 	margin-top: -60px;
 }
 
+.show_all_projects {
+	font-size: 24px;
+	display: block;
+	text-align: center;
+}
+
+.show_all_projects:hover {
+	color: #f99;
+}
+
 #projects_portfolio {
 	display: flex;
 	flex-wrap: wrap;
@@ -127,16 +137,6 @@ a {
 #projects_portfolio img {
 	max-width: 100%;
 	height: auto;
-}
-
-#show_all_projects {
-	font-size: 24px;
-	display: block;
-	text-align: center;
-}
-
-#show_all_projects:hover {
-	color: #f99;
 }
 
 /*----------main #contact----------*/
