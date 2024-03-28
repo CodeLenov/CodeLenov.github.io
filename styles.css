@@ -12,7 +12,9 @@ a:hover {
 }
 
 h1 {
+	color: #ff0;
 	font-size: 24px;
+	text-align: center;
 }
 
 /*----------header----------*/
@@ -71,10 +73,6 @@ main {
 	padding: 60px 20px 20px 20px;
 }
 
-h1 {
-	text-align: center;
-}
-
 a {
 	text-decoration: none;
 	color: #ff9;
@@ -116,6 +114,7 @@ a {
 }
 
 .show_all_projects {
+	color: #ff0;
 	font-size: 24px;
 	display: block;
 	text-align: center;
