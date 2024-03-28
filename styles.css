@@ -129,12 +129,21 @@ a {
 	height: auto;
 }
 
+#show_all_projects {
+	font-size: 24px;
+	display: block;
+	text-align: center;
+}
+
+#show_all_projects:hover {
+	color: #f99;
+}
+
 /*----------main #contact----------*/
 
 #contact {
 	padding: 110px 50px 50px 50px;
 	margin-top: -60px;
-	
 }
 
 #contact section {
