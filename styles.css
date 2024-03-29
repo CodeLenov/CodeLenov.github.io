@@ -1,9 +1,16 @@
 /*----------body----------*/
 
 body {
+	background-color: #111;
+	color: #ff9;
 	font-family: Arial, sans-serif;
 	text-align: justify;
 	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ff9;
 }
 
 a:hover {
@@ -68,14 +75,7 @@ nav li a {
 /*----------main----------*/
 
 main {
-	background-color: #111;
-	color: #ff9;
 	padding: 60px 20px 20px 20px;
-}
-
-a {
-	text-decoration: none;
-	color: #ff9;
 }
 
 /*----------main #welcome----------*/
