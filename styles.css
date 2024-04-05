@@ -97,15 +97,16 @@ main {
 	gap: 50px;
 }
 
-#welcome li {
-	display: block;
-}
-
 #welcome_skills {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+#welcome_skills li {
+	display: block;
+	flex: 1 1 0%;
 }
 
 /*----------main #projects----------*/
