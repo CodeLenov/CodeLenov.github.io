@@ -91,6 +91,7 @@ main {
 
 #welcome_main {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-evenly;
 	gap: 50px;
@@ -102,6 +103,7 @@ main {
 
 #welcome_skills {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-between;
 }
