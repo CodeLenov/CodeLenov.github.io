@@ -56,10 +56,6 @@ header h1 {
 	margin: 0;
 }
 
-nav {
-	order: 1;
-}
-
 nav ul {
 	list-style-type: none;
 }
