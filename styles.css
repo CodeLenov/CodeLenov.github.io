@@ -155,6 +155,7 @@ main {
 	padding: 10px;
 	border: 1px solid #ff0;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
 	gap: 50px;
