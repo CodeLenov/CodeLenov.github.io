@@ -6,6 +6,7 @@ Front End Foundations Course | JavaScript, CSS, HTML, Git | The Odin Project
 	2. Landing Page | CSS, HTML | Front End Foundations Course (JavaScript, CSS, HTML, Git) | 02/05 | The Odin Project | 2024
 	3. Rock Paper Scissors | JavaScript, CSS, HTML | Front End Foundations Course (JavaScript, CSS, HTML, Git) | 03/05 | The Odin Project | 2024
 	4. Etch-a-Sketch| JavaScript, CSS, HTML | Front End Foundations Course (JavaScript, CSS, HTML, Git) | 04/05 | The Odin Project | 2024
+	5. Calculator | JavaScript, CSS, HTML | Front End Foundations Course (JavaScript, CSS, HTML, Git) | 05/05 | The Odin Project | 2024
 
 Responsive Web Design | CSS, HTML | freeCodeCamp
 	1. Survey Form | CSS, HTML | Responsive Web Design (CSS, HTML) | 01/05 | freeCodeCamp | 2024
