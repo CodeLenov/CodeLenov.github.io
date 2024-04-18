@@ -24,6 +24,10 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	text-align: center;
+}
+
 /*----------header----------*/
 
 header {
@@ -50,8 +54,6 @@ header h1 {
 	color: #ff0;
 	padding: 0;
 	margin: 0;
-	text-align: center;
-	flex: 1 1 0%;
 }
 
 .navbar_list {
@@ -91,56 +93,7 @@ main {
 	padding: 60px 20px 20px 20px;
 }
 
-.show_all {
-	color: #ff0;
-	font-size: 24px;
-	display: block;
-	text-align: center;
-}
-
-.show_all:hover {
-	color: #f99;
-}
-
-/*----------main #welcome----------*/
-
-#welcome {
-	padding-top: 60px;
-	margin-top: -60px;
-}
-
-#welcome_hi {
-	text-align: center;
-}
-
-#welcome_main {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-evenly;
-	gap: 50px;
-}
-
-#welcome_skills {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-#welcome_skills li {
-	display: block;
-	flex: 1 1 0%;
-}
-
-/*----------main #projects----------*/
-
-#projects {
-	padding-top: 60px;
-	margin-top: -60px;
-}
-
-#projects_portfolio {
+.flex {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -149,53 +102,13 @@ main {
 	gap: 20px;
 }
 
-#projects_portfolio a {
+#flex a {
 	flex: 1 1 0%;
 }
 
-#projects_portfolio img {
+#flex img {
 	max-width: 100%;
 	height: auto;
-}
-
-/*----------main #blog----------*/
-
-
-
-/*----------main #contact----------*/
-
-#contact {
-	padding: 110px 50px 50px 50px;
-	margin-top: -60px;
-}
-
-#contact section {
-	padding: 10px;
-	border: 1px solid #ff0;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
-	gap: 50px;
-}
-
-#contact a {
-	text-align: center;
-	flex: 1;
-}
-
-#contact button {
-	background-color: #ff0;
-	font-size: 40px;
-	flex: 1;
-	text-align: center;
-	border: none;
-	margin: auto;
-}
-
-#contact button:hover {
-	background-color: #f99;
-	border: 4px solid #ff0;
 }
 
 /*----------footer----------*/
