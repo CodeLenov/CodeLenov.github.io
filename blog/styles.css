@@ -1,8 +1,14 @@
-/*----------body----------*/
+/* !!! 1. <body> !!! */
+/* !!! 2. <header> !!! */
+/* !!! 3. <main> !!! */
+/* !!! 4. <footer> !!! */
+
+/* ---------------------------------------------------------------------- */
+/* !!! 1. <body> !!! */
 
 body {
-	background-color: #111;
-	color: #ff9;
+	background-color: #555;
+	color: #fff;
 	font-family: Arial, sans-serif;
 	text-align: justify;
 	margin: 0;
@@ -10,16 +16,21 @@ body {
 
 a {
 	text-decoration: none;
-	color: #ff9;
+	color: #fff;
 }
 
 a:hover {
-	background-color: #111;
+	background-color: #555;
+	color: #ff0;
+}
+
+a h1:hover {
+	background-color: #555;
 	color: #ff0;
 }
 
 h1 {
-	color: #ff0;
+	color: #ff9;
 	font-size: 24px;
 	text-align: center;
 }
@@ -28,10 +39,11 @@ h2 {
 	text-align: center;
 }
 
-/*----------header----------*/
+/* ---------------------------------------------------------------------- */
+/* !!! 2. <header> !!! */
 
 header {
-	background-color: #555;
+	background-color: #999;
 	width: 100%;
 	top: 0px;
 	left: 0px;
@@ -81,13 +93,14 @@ header h1 {
 
 .navbar_list a {
 	text-decoration: none;
-	color: #f99;
+	color: #fcc;
 	padding: 5px 20px;
 	text-align: center;
 	display: block;
 }
 
-/*----------main----------*/
+/* ---------------------------------------------------------------------- */
+/* !!! 3. <main> !!! */
 
 main {
 	padding: 60px 20px 20px 20px;
@@ -111,11 +124,12 @@ main {
 	height: auto;
 }
 
-/*----------footer----------*/
+/* ---------------------------------------------------------------------- */
+/* !!! 4. <footer> !!! */
 
 footer {
-	background-color: #000;
-	color: #999;
+	background-color: #777;
+	color: #fcc;
 	padding: 10px;
 	margin: -16px 0 -16px 0;
 	text-align: right;

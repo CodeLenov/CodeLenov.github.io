@@ -1,8 +1,18 @@
-/*----------body----------*/
+/* !!! 1. <body> !!! */
+/* !!! 2. <header> !!! */
+/* !!! 3. <main> !!! */
+/* !!! 4. <section id=#welcome> !!! */
+/* !!! 5. <section id="#projects"> !!! */
+/* !!! 6. <section id="#blog"> !!! */
+/* !!! 7. <section id="#contact"> !!! */
+/* !!! 8. <footer> !!! */
+
+/* ---------------------------------------------------------------------- */
+/* !!! 1. <body> !!! */
 
 body {
-	background-color: #111;
-	color: #ff9;
+	background-color: #555;
+	color: #fff;
 	font-family: Arial, sans-serif;
 	text-align: justify;
 	margin: 0;
@@ -10,24 +20,30 @@ body {
 
 a {
 	text-decoration: none;
-	color: #ff9;
+	color: #fff;
 }
 
 a:hover {
-	background-color: #111;
+	background-color: #555;
+	color: #ff0;
+}
+
+a h1:hover {
+	background-color: #555;
 	color: #ff0;
 }
 
 h1 {
-	color: #ff0;
+	color: #ff9;
 	font-size: 24px;
 	text-align: center;
 }
 
-/*----------header----------*/
+/* ---------------------------------------------------------------------- */
+/* !!! 2. <header> !!! */
 
 header {
-	background-color: #555;
+	background-color: #999;
 	width: 100%;
 	top: 0px;
 	left: 0px;
@@ -50,8 +66,6 @@ header h1 {
 	color: #ff0;
 	padding: 0;
 	margin: 0;
-	text-align: center;
-	flex: 1 1 0%;
 }
 
 .navbar_list {
@@ -79,30 +93,33 @@ header h1 {
 
 .navbar_list a {
 	text-decoration: none;
-	color: #f99;
+	color: #fcc;
 	padding: 5px 20px;
 	text-align: center;
 	display: block;
 }
 
-/*----------main----------*/
+/* ---------------------------------------------------------------------- */
+/* !!! 3. <main> !!! */
 
 main {
 	padding: 60px 20px 20px 20px;
 }
 
 .show_all {
-	color: #ff0;
+	color: #ff9;
 	font-size: 24px;
 	display: block;
 	text-align: center;
 }
 
 .show_all:hover {
-	color: #f99;
+	background-color: #555;
+	color: #ff0;
 }
 
-/*----------main #welcome----------*/
+/* ---------------------------------------------------------------------- */
+/* !!! 4. <section id=#welcome> !!! */
 
 #welcome {
 	padding-top: 60px;
@@ -133,7 +150,8 @@ main {
 	flex: 1 1 0%;
 }
 
-/*----------main #projects----------*/
+/* ---------------------------------------------------------------------- */
+/* !!! 5. <section id="#projects"> !!! */
 
 #projects {
 	padding-top: 60px;
@@ -158,18 +176,18 @@ main {
 	height: auto;
 }
 
-/*----------main #blog----------*/
+/* ---------------------------------------------------------------------- */
+/* !!! 6. <section id="#blog"> !!! */
 
-
-
-/*----------main #contact----------*/
+/* ---------------------------------------------------------------------- */
+/* !!! 7. <section id="#contact"> !!! */
 
 #contact {
 	padding: 110px 50px 50px 50px;
 	margin-top: -60px;
 }
 
-#contact section {
+#contact article {
 	padding: 10px;
 	border: 1px solid #ff0;
 	display: flex;
@@ -181,13 +199,13 @@ main {
 
 #contact a {
 	text-align: center;
-	flex: 1;
+	flex: 1 1 0;
 }
 
 #contact button {
 	background-color: #ff0;
 	font-size: 40px;
-	flex: 1;
+	flex: 1 1 0;
 	text-align: center;
 	border: none;
 	margin: auto;
@@ -198,11 +216,12 @@ main {
 	border: 4px solid #ff0;
 }
 
-/*----------footer----------*/
+/* ---------------------------------------------------------------------- */
+/* !!! 8. <footer> !!! */
 
 footer {
-	background-color: #000;
-	color: #999;
+	background-color: #777;
+	color: #fcc;
 	padding: 10px;
 	margin: -16px 0 -16px 0;
 	text-align: right;
