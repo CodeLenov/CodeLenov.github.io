@@ -35,7 +35,7 @@ a h1:hover {
 
 h1 {
 	color: #ff9;
-	font-size: 24px;s
+	font-size: 24px;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -44,19 +44,29 @@ h1 {
 header {
 	background-color: #999;
 	width: 100%;
+	height: auto;
 	top: 0px;
 	left: 0px;
 	position: fixed;
 	overflow: hidden;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header a {
+	padding: 0 8vmin;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	align-items: center;
 }
 
 header img {
 	width: 8vmin;
 	height: auto;
+	padding: 0 3vmin;
 }
 
 header h1 {
