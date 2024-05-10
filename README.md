@@ -1,14 +1,14 @@
 # CodeLenov.github.io
 CodeLenov
 
-Full Stack JavaScript | HTML and CSS Intermediate, JavaScript, HTML and CSS Advanced, React, NodeJS, MongoDB, Getting Hired | The Odin Project
+Full Stack JavaScript | Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate | The Odin Project
 - Getting Hired
 - NodeJS and MongoDB
 - React
 - HTML and CSS Advanced
 - JavaScript
 - HTML and CSS Intermediate
-	1. Sign-up Form | HTML and CSS Intermediate | Full Stack JavaScript (HTML and CSS Intermediate, JavaScript, HTML and CSS Advanced, React, NodeJS and MongoDB, Getting Hired) | 01/02/29 | The Odin Project | 2024
+	1. Sign-up Form | HTML and CSS Intermediate | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/02/29 | The Odin Project | 2024
 
 Front End Foundations Course | JavaScript, CSS, HTML, Git | The Odin Project
 	5. Calculator | JavaScript, CSS, HTML | Front End Foundations Course (JavaScript, CSS, HTML, Git) | 05/05 | The Odin Project | 2024
