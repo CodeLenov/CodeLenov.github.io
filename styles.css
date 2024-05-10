@@ -1,7 +1,7 @@
 /* !!! 1. <body> !!! */
 /* !!! 2. <header> !!! */
 /* !!! 3. <main> !!! */
-/* !!! 4. <section id=#welcome> !!! */
+/* !!! 4. <section id=#about> !!! */
 /* !!! 5. <section id="#projects"> !!! */
 /* !!! 6. <section id="#blog"> !!! */
 /* !!! 7. <section id="#contact"> !!! */
@@ -51,21 +51,17 @@ header {
 	overflow: hidden;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
 header img {
-	width: 80px;
+	width: 8vmin;
 	height: auto;
-	padding: 0;
-	margin: 0;
 }
 
 header h1 {
 	color: #ff0;
-	padding: 0;
-	margin: 0;
 }
 
 .navbar_list {
@@ -119,18 +115,18 @@ main {
 }
 
 /* ---------------------------------------------------------------------- */
-/* !!! 4. <section id=#welcome> !!! */
+/* !!! 4. <section id=#about> !!! */
 
-#welcome {
+#about {
 	padding-top: 60px;
 	margin-top: -60px;
 }
 
-#welcome_hi {
+#about_hi {
 	text-align: center;
 }
 
-#welcome_main {
+#about_main {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -138,14 +134,14 @@ main {
 	gap: 50px;
 }
 
-#welcome_skills {
+#about_skills {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-#welcome_skills li {
+#about_skills li {
 	display: block;
 	flex: 1 1 0%;
 }
