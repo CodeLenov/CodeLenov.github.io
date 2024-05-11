@@ -45,27 +45,33 @@ h2 {
 header {
 	background-color: #999;
 	width: 100%;
+	height: auto;
 	top: 0px;
 	left: 0px;
 	position: fixed;
 	overflow: hidden;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header a {
+	padding: 0 8vmin;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	align-items: center;
 }
 
 header img {
 	width: 8vmin;
 	height: auto;
-	padding: 0;
-	margin: 0;
+	padding: 0 3vmin;
 }
 
 header h1 {
 	color: #ff0;
-	padding: 0;
-	margin: 0;
 }
 
 .navbar_list {
@@ -93,7 +99,7 @@ header h1 {
 
 .navbar_list a {
 	text-decoration: none;
-	color: #fcc;
+	color: #fff;
 	padding: 5px 20px;
 	text-align: center;
 	display: block;
@@ -129,7 +135,7 @@ main {
 
 footer {
 	background-color: #777;
-	color: #fcc;
+	color: #fff;
 	padding: 10px;
 	margin: -16px 0 -16px 0;
 	text-align: right;
