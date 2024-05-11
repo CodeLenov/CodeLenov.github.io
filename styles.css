@@ -106,37 +106,31 @@ header h1 {
 /* !!! 3. <main> !!! */
 
 main {
-	padding: 60px 20px 20px 20px;
-}
-
-@media all and (max-width: 800px) {
-	main {
-		padding: 120px 20px 20px 20px;
-	}
-}
-
-@media all and (max-width: 500px) {
-	main {
-		padding: 200px 20px 20px 20px;
-	}
+	padding: 50px 20px 20px 20px;
 }
 
 #about, #projects, #blog, #contact {
-	padding-top: 60px;
-	margin-top: -60px;
+	padding-top: 50px;
+	margin-top: -50px;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 720px) {
+	main {
+		padding: 110px 20px 20px 20px;
+	}
 	#about, #projects, #blog, #contact {
-		padding-top: 120px;
-		margin-top: -120px;
+		padding-top: 110px;
+		margin-top: -110px;
 	}
 }
 
 @media all and (max-width: 500px) {
+	main {
+		padding: 190px 20px 20px 20px;
+	}
 	#about, #projects, #blog, #contact {
-		padding-top: 200px;
-		margin-top: -200px;
+		padding-top: 190px;
+		margin-top: -190px;
 	}
 }
 
@@ -164,7 +158,6 @@ main {
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-evenly;
-	gap: 50px;
 }
 
 #about_skills {
