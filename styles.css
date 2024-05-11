@@ -79,18 +79,6 @@ header h1 {
 	justify-content: flex-end;
 }
 
-@media all and (max-width: 800px) {
-	.navbar_list {
-		justify-content: space-around;
-	}
-}
-
-@media all and (max-width: 500px) {
-	.navbar_list {
-		flex-direction: column;
-	}
-}
-
 .navbar_list li {
 	display: inline-block;
 }
@@ -102,11 +90,54 @@ header h1 {
 	display: block;
 }
 
+@media all and (max-width: 800px) {
+	header {
+		justify-content: space-around;
+	}
+}
+
+@media all and (max-width: 500px) {
+	header, .navbar_list {
+		flex-direction: column;
+	}
+}
+
 /* ---------------------------------------------------------------------- */
 /* !!! 3. <main> !!! */
 
 main {
 	padding: 60px 20px 20px 20px;
+}
+
+@media all and (max-width: 800px) {
+	main {
+		padding: 120px 20px 20px 20px;
+	}
+}
+
+@media all and (max-width: 500px) {
+	main {
+		padding: 200px 20px 20px 20px;
+	}
+}
+
+#about, #projects, #blog, #contact {
+	padding-top: 60px;
+	margin-top: -60px;
+}
+
+@media all and (max-width: 800px) {
+	#about, #projects, #blog, #contact {
+		padding-top: 120px;
+		margin-top: -120px;
+	}
+}
+
+@media all and (max-width: 500px) {
+	#about, #projects, #blog, #contact {
+		padding-top: 200px;
+		margin-top: -200px;
+	}
 }
 
 .show_all {
@@ -123,11 +154,6 @@ main {
 
 /* ---------------------------------------------------------------------- */
 /* !!! 4. <section id="#about"> !!! */
-
-#about {
-	padding-top: 60px;
-	margin-top: -60px;
-}
 
 #about_hi {
 	text-align: center;
@@ -156,11 +182,6 @@ main {
 /* ---------------------------------------------------------------------- */
 /* !!! 5. <section id="#projects"> !!! */
 
-#projects {
-	padding-top: 60px;
-	margin-top: -60px;
-}
-
 #projects_portfolio {
 	display: flex;
 	flex-wrap: wrap;
@@ -173,13 +194,10 @@ main {
 /* ---------------------------------------------------------------------- */
 /* !!! 6. <section id="#blog"> !!! */
 
+
+
 /* ---------------------------------------------------------------------- */
 /* !!! 7. <section id="#contact"> !!! */
-
-#contact {
-	padding: 110px 50px 50px 50px;
-	margin-top: -60px;
-}
 
 #contact article {
 	border: 1px solid #ff0;
