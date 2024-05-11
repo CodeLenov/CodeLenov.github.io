@@ -20,12 +20,10 @@ a {
 }
 
 a:hover {
-	background-color: #555;
 	color: #ff0;
 }
 
 a h1:hover {
-	background-color: #555;
 	color: #ff0;
 }
 
@@ -67,7 +65,7 @@ header a {
 header img {
 	width: 8vmin;
 	height: auto;
-	padding: 0 3vmin;
+	padding: 0 2vmin;
 }
 
 header h1 {
@@ -99,7 +97,6 @@ header h1 {
 
 .navbar_list a {
 	text-decoration: none;
-	color: #fff;
 	padding: 5px 20px;
 	text-align: center;
 	display: block;
