@@ -90,7 +90,7 @@ header h1 {
 	display: block;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 720px) {
 	header {
 		justify-content: space-around;
 	}
