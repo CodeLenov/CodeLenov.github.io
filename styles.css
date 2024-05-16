@@ -3,7 +3,7 @@
 /* !!! 3. <main> !!! */
 /* !!! 4. <section id="#about"> !!! */
 /* !!! 5. <section id="#projects"> !!! */
-/* !!! 6. <section id="#blog"> !!! */
+/* !!! 6. <section id="#articles"> !!! */
 /* !!! 7. <section id="#contact"> !!! */
 /* !!! 8. <footer> !!! */
 
@@ -109,7 +109,7 @@ main {
 	padding: 50px 20px 20px 20px;
 }
 
-#about, #projects, #blog, #contact {
+#about, #projects, #articles, #contact {
 	padding-top: 50px;
 	margin-top: -50px;
 }
@@ -118,7 +118,7 @@ main {
 	main {
 		padding: 110px 20px 20px 20px;
 	}
-	#about, #projects, #blog, #contact {
+	#about, #projects, #articles, #contact {
 		padding-top: 110px;
 		margin-top: -110px;
 	}
@@ -128,7 +128,7 @@ main {
 	main {
 		padding: 190px 20px 20px 20px;
 	}
-	#about, #projects, #blog, #contact {
+	#about, #projects, #articles, #contact {
 		padding-top: 190px;
 		margin-top: -190px;
 	}
@@ -185,7 +185,7 @@ main {
 }
 
 /* ---------------------------------------------------------------------- */
-/* !!! 6. <section id="#blog"> !!! */
+/* !!! 6. <section id="#articles"> !!! */
 
 
 
