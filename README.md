@@ -1,8 +1,9 @@
 # CodeLenov.github.io
-CodeLenov
+CodeLenov | Personal Website (CodeLenov.github.io) - https://codelenov.github.io/ | Getting Hired | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/02 (28/29) | The Odin Project | 2024
 
 Full Stack JavaScript | Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate | The Odin Project
 - Getting Hired
+	2. Resume - https://codelenov.github.io/resume | Getting Hired | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 02/02 (29/29) | The Odin Project | 2024
 	1. Personal Website (CodeLenov.github.io) - https://codelenov.github.io/ | Getting Hired | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/02 (28/29) | The Odin Project | 2024
 - NodeJS and MongoDB
 - React
