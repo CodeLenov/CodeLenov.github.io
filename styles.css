@@ -210,7 +210,7 @@ main {
 
 #contact button {
 	background-color: #555;
-	color: #fff;
+	color: #ff0;
 	font-size: 40px;
 	text-align: center;
 	border: none;
@@ -218,7 +218,8 @@ main {
 }
 
 #contact button:hover {
-	color: #ff0;
+	background-color: #ff9;
+	color: #555;
 }
 
 #contact button:active {
