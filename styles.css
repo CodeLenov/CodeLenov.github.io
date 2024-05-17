@@ -48,11 +48,12 @@ h2 {
 
 header {
 	background-color: #999;
-	width: 100%;
-	top: 0px;
-	left: 0px;
 	position: fixed;
+	z-index: 2;
+	top: 0;
+	width: 100%;
 	overflow: hidden;
+	transition: top 0.3s;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -77,51 +78,56 @@ header h1 {
 	color: #ff0;
 }
 
-.navtopbar_list {
+#navtopbar {
 	list-style-type: none;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
 }
 
-.navtopbar_list li {
-	display: inline-block;
-}
-
-.navtopbar_list a {
-	text-decoration: none;
-	padding: 5px 20px;
-	text-align: center;
+#navtopbar a {
+	font-size: 1.25em;
 	display: block;
+	padding: 5px 20px;
 }
 
 @media all and (max-width: 720px) {
 	header {
 		justify-content: space-around;
 	}
+	#navsidebar {
+		padding-top: 110px;
+	}
 }
 
 @media all and (max-width: 500px) {
-	header, .navtopbar_list {
+	header, #navtopbar {
 		flex-direction: column;
+	}
+	#navsidebar {
+		padding-top: 190px;
 	}
 }
 
 /* ---------------------------------------------------------------------- */
 /* !!! 3. <aside> !!! */
 
-.navsidebar {
+aside {
 	background-color: #999;
 	position: fixed;
 	z-index: 1;
-	top: 50px;
+	top: 0;
 	left: 0;
 	height: 100%;
 	overflow-x: hidden;
 	padding-top: 26px;
 }
 
-.navsidebar a {
+#navsidebar {
+	padding-top: 50px;
+}
+
+aside a {
 	display: block;
 	padding: 16px;
 }
@@ -130,18 +136,18 @@ header h1 {
 /* !!! 4. <main> !!! */
 
 main {
-	padding: 50px 20px 20px 20px;
+	padding: 4em 20px 20px 2em;
 	margin-left: 100px;
 }
 
 section {
-	padding-top: 50px;
-	margin-top: -50px;
+	padding-top: 4em;
+	margin-top: -4em;
 }
 
 @media all and (max-width: 720px) {
 	main {
-		padding: 110px 20px 20px 20px;
+		padding: 50px 20px 20px 20px;
 	}
 	section {
 		padding-top: 110px;
@@ -271,15 +277,15 @@ section {
 footer {
 	background-color: #999;
 	color: #fff;
-	width: 100%;
-	padding: 10px;
-	margin: -16px -20px -16px -20px;
 	text-align: right;
-	font-size: 12px;
+	font-size: 0.75em;
 	position: relative;
 	z-index: 2;
 	bottom: 0px;
 	left: 0px;
+	margin: -16px -20px -16px -20px;
+	padding: 10px;
+	width: 100%;
 }
 
 footer p {
