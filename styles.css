@@ -1,11 +1,13 @@
 /* !!! 1. <body> !!! */
 /* !!! 2. <header> !!! */
-/* !!! 3. <main> !!! */
-/* !!! 4. <section id="#about"> !!! */
-/* !!! 5. <section id="#projects"> !!! */
-/* !!! 6. <section id="#articles"> !!! */
-/* !!! 7. <section id="#contact"> !!! */
-/* !!! 8. <footer> !!! */
+/* !!! 3. <aside> !!! */
+/* !!! 4. <main> !!! */
+/* !!! 5. <section id="#about"> !!! */
+/* !!! 6. <section id="#projects"> !!! */
+/* !!! 7. <section id="#articles"> !!! */
+/* !!! 8. <section id="#contact"> !!! */
+/* !!! 9. <footer> !!! */
+/* !!! 10. @media query !!! */
 
 /* ---------------------------------------------------------------------- */
 /* !!! 1. <body> !!! */
@@ -13,7 +15,7 @@
 body {
 	background-color: #555;
 	color: #fff;
-	font-family: Arial, sans-serif;
+	font-family: 'Lucida Console', 'Courier New', monospace;
 	text-align: justify;
 	margin: 0;
 }
@@ -47,7 +49,6 @@ h2 {
 header {
 	background-color: #999;
 	width: 100%;
-	height: auto;
 	top: 0px;
 	left: 0px;
 	position: fixed;
@@ -76,18 +77,18 @@ header h1 {
 	color: #ff0;
 }
 
-.navbar_list {
+.navtopbar_list {
 	list-style-type: none;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
 }
 
-.navbar_list li {
+.navtopbar_list li {
 	display: inline-block;
 }
 
-.navbar_list a {
+.navtopbar_list a {
 	text-decoration: none;
 	padding: 5px 20px;
 	text-align: center;
@@ -101,19 +102,39 @@ header h1 {
 }
 
 @media all and (max-width: 500px) {
-	header, .navbar_list {
+	header, .navtopbar_list {
 		flex-direction: column;
 	}
 }
 
 /* ---------------------------------------------------------------------- */
-/* !!! 3. <main> !!! */
+/* !!! 3. <aside> !!! */
+
+.navsidebar {
+	background-color: #999;
+	position: fixed;
+	z-index: 1;
+	top: 50px;
+	left: 0;
+	height: 100%;
+	overflow-x: hidden;
+	padding-top: 26px;
+}
+
+.navsidebar a {
+	display: block;
+	padding: 16px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* !!! 4. <main> !!! */
 
 main {
 	padding: 50px 20px 20px 20px;
+	margin-left: 100px;
 }
 
-#section {
+section {
 	padding-top: 50px;
 	margin-top: -50px;
 }
@@ -160,7 +181,7 @@ main {
 }
 
 /* ---------------------------------------------------------------------- */
-/* !!! 4. <section id="#about"> !!! */
+/* !!! 5. <section id="#about"> !!! */
 
 #about_hi {
 	text-align: center;
@@ -186,7 +207,7 @@ main {
 }
 
 /* ---------------------------------------------------------------------- */
-/* !!! 5. <section id="#projects"> !!! */
+/* !!! 6. <section id="#projects"> !!! */
 
 #projects_portfolio {
 	display: flex;
@@ -198,14 +219,18 @@ main {
 }
 
 /* ---------------------------------------------------------------------- */
-/* !!! 6. <section id="#articles"> !!! */
+/* !!! 7. <section id="#articles"> !!! */
 
 
 
 /* ---------------------------------------------------------------------- */
-/* !!! 7. <section id="#contact"> !!! */
+/* !!! 8. <section id="#contact"> !!! */
 
-#contact article {
+#contact {
+	padding-left: 8px;
+}
+
+#contact address {
 	border: 1px solid #ff0;
 }
 
@@ -241,17 +266,25 @@ main {
 }
 
 /* ---------------------------------------------------------------------- */
-/* !!! 8. <footer> !!! */
+/* !!! 9. <footer> !!! */
 
 footer {
-	background-color: #777;
+	background-color: #999;
 	color: #fff;
+	width: 100%;
 	padding: 10px;
-	margin: -16px 0 -16px 0;
+	margin: -16px -20px -16px -20px;
 	text-align: right;
 	font-size: 12px;
+	position: relative;
+	z-index: 2;
+	bottom: 0px;
+	left: 0px;
 }
 
 footer p {
 	margin: 0;
 }
+
+/* ---------------------------------------------------------------------- */
+/* !!! 10. @media query !!! */

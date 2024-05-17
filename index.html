@@ -1,10 +1,13 @@
 <!-- !!! 1. <head> !!! -->
 <!-- !!! 2. <header> !!! -->
-<!-- !!! 3. <section id="about"> !!! -->
-<!-- !!! 4. <section id="projects"> !!! -->
-<!-- !!! 5. <section id="articles"> !!! -->
-<!-- !!! 6. <section id="contact"> !!! -->
-<!-- !!! 7. <footer> !!! -->
+<!-- !!! 3. <aside> !!! -->
+	<!-- <main> -->
+<!-- !!! 4. <section id="about"> !!! -->
+<!-- !!! 5. <section id="projects"> !!! -->
+<!-- !!! 6. <section id="articles"> !!! -->
+<!-- !!! 7. <section id="contact"> !!! -->
+	<!-- </main> -->
+<!-- !!! 8. <footer> !!! -->
 
 <!-- ---------------------------------------------------------------------- -->
 <!-- !!! 1. <head> !!! -->
@@ -31,21 +34,27 @@
 		<h1>CodeLenov</h1>
 	</a>
 
- 	<nav>
-		<ul class="navbar_list">
-			<li><a href="#about">About</a></li>
-			<li><a href="#projects">Projects</a></li>
-			<li><a href="#articles">Articles</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</nav>
 
 </header>
+
+<!-- ---------------------------------------------------------------------- -->
+<!-- !!! 3. <aside> !!! -->
+
+<aside>
+
+	<nav class="navsidebar">
+		<a href="#about">About</a>
+		<a href="#projects">Projects</a>
+		<a href="#articles">Articles</a>
+		<a href="#contact">Contact</a>
+	</nav>
+
+</aside>
 
 <main>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 3. <section id="about"> !!! -->
+<!-- !!! 4. <section id="about"> !!! -->
 
 <section id="about">
 
@@ -99,11 +108,13 @@
 </section>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 4. <section id="projects"> !!! -->
+<!-- !!! 5. <section id="projects"> !!! -->
 
 <section id="projects">
 
-	<a class="show_all" href="./projects.html"><h1>Projects</h1></a>
+	<a class="show_all" href="./projects.html">
+		<h1>Projects</h1>
+	</a>
 
 	<article id="projects_portfolio">
 
@@ -144,7 +155,7 @@
 </section>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 5. <section id="articles"> !!! -->
+<!-- !!! 6. <section id="articles"> !!! -->
 
 <section id="articles">
 
@@ -157,23 +168,28 @@
 </section>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 6. <section id="contact"> !!! -->
+<!-- !!! 7. <section id="contact"> !!! -->
 
 <section id="contact">
-	<article>
+	<address>
 		<a href="mailto:oleksii.klymchuk@tutamail.com">
 			<p>oleksii.klymchuk@tutamail.com</p>
 			<button type="submit">Sign up</button>
 		</a>
-	</article>
+	</address>
 </section>
 
 </main>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 7. <footer> !!! -->
+<!-- !!! 8. <footer> !!! -->
 
 <footer>
+	<address>
+		<a href="mailto:oleksii.klymchuk@tutamail.com">
+			<p>oleksii.klymchuk@tutamail.com</p>
+		</a>
+	</address>
 	<p>(CodeLenov) Ol Klym, 2024</p>
 </footer>
 
