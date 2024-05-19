@@ -29,18 +29,18 @@ a:hover {
 	color: #ff0;
 }
 
-a h1:hover {
-	color: #ff0;
-}
-
 h1 {
-	color: #ff9;
-	font-size: 24px;
+	color: #ff0;
 	text-align: center;
 }
 
 h2 {
+	color: #ff9;
 	text-align: center;
+}
+
+a h2:hover {
+	color: #ff0;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -52,16 +52,17 @@ header {
 	z-index: 2;
 	top: 0;
 	width: 100%;
+	height: 3em;
 	overflow: hidden;
 	transition: top 0.3s;
 	display: flex;
-	flex-wrap: wrap;
+	flex-flow: row nowrap;
 	justify-content: space-between;
 	align-items: center;
 }
 
 header a {
-	padding: 0 8vmin;
+	padding: 0 4em;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -69,13 +70,17 @@ header a {
 }
 
 header img {
-	width: 8vmin;
+	width: 3em;
 	height: auto;
-	padding: 0 2vmin;
+	padding: 0 0.5em;
 }
 
-header h1 {
+header p {
 	color: #ff0;
+}
+
+header nav {
+	padding-right: 1em;
 }
 
 #navtopbar {
@@ -86,27 +91,8 @@ header h1 {
 }
 
 #navtopbar a {
-	font-size: 1.25em;
 	display: block;
-	padding: 5px 20px;
-}
-
-@media all and (max-width: 720px) {
-	header {
-		justify-content: space-around;
-	}
-	#navsidebar {
-		padding-top: 110px;
-	}
-}
-
-@media all and (max-width: 500px) {
-	header, #navtopbar {
-		flex-direction: column;
-	}
-	#navsidebar {
-		padding-top: 190px;
-	}
+	padding: 0 1.5em;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -118,56 +104,39 @@ aside {
 	z-index: 1;
 	top: 0;
 	left: 0;
+	width: 7em;
 	height: 100%;
 	overflow-x: hidden;
-	padding-top: 26px;
 }
 
 #navsidebar {
-	padding-top: 50px;
+	padding-top: 3em;
+}
+
+aside p {
+	text-align: center;
 }
 
 aside a {
 	display: block;
-	padding: 16px;
+	padding: 1em;
 }
 
 /* ---------------------------------------------------------------------- */
 /* !!! 4. <main> !!! */
 
 main {
-	padding: 4em 20px 20px 2em;
-	margin-left: 100px;
+	padding: 3em 2em 2em 2em; /* 3em padding-top = header height; 2em instead body margin (=0) */
+	margin-left: 5em; /* 5em = 7em aside width - 2em main padding */
 }
 
 section {
-	padding-top: 4em;
-	margin-top: -4em;
-}
-
-@media all and (max-width: 720px) {
-	main {
-		padding: 50px 20px 20px 20px;
-	}
-	section {
-		padding-top: 110px;
-		margin-top: -110px;
-	}
-}
-
-@media all and (max-width: 500px) {
-	main {
-		padding: 190px 20px 20px 20px;
-	}
-	section {
-		padding-top: 190px;
-		margin-top: -190px;
-	}
+	padding-top: 3em; /* 3em padding-top = header height; 2em instead body margin (=0) */
+	margin-top: -3em; /* -3em margin-top = 3em padding-top. It is need sections links */
 }
 
 .show_all {
 	color: #ff9;
-	font-size: 24px;
 	display: block;
 	text-align: center;
 }
@@ -183,13 +152,13 @@ section {
 	flex-direction: row;
 	justify-content: center;
 	text-align: center;
-	gap: 20px;
+	gap: 5em;
 }
 
 /* ---------------------------------------------------------------------- */
 /* !!! 5. <section id="#about"> !!! */
 
-#about_hi {
+#about p {
 	text-align: center;
 }
 
@@ -209,7 +178,7 @@ section {
 
 #about_skills li {
 	display: block;
-	flex: 1 1 0%;
+	flex: 1 1 0;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -221,7 +190,6 @@ section {
 	flex-direction: row;
 	justify-content: center;
 	text-align: center;
-	gap: 20px;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -231,10 +199,6 @@ section {
 
 /* ---------------------------------------------------------------------- */
 /* !!! 8. <section id="#contact"> !!! */
-
-#contact {
-	padding-left: 8px;
-}
 
 #contact address {
 	border: 1px solid #ff0;
@@ -255,7 +219,7 @@ section {
 #contact button {
 	background-color: #555;
 	color: #ff0;
-	font-size: 40px;
+	font-size: 1.5em;
 	text-align: center;
 	border: none;
 	flex: 1 1 0;
@@ -295,24 +259,44 @@ footer p {
 /* ---------------------------------------------------------------------- */
 /* !!! 10. @media query !!! */
 
-/*page navbar - aside
-pages navbar - header
-all css in 1
-make one mediaquery for all css attributes
-change font-family
-resume - a4
-resume as link from #about (show resume)
-articles
-links
-copy header, aside, footer - in all html (and next fix aside in each html)
+@media all and (max-width: 720px) {
 
-!!!!!!!!! add addEventListener with header to bottom - for all links in all aside in all files (class)
-!!! make padding and margin in em (not px)
-hide navbar on scroll
-responsive header
-responsive topnav
+	header {
+		justify-content: space-around;
+	}
 
-fixed sidebar with full height
-responsive sidebar
+	#navsidebar {
+		padding-top: 110px;
+	}
 
-links from roadmap */
+	main {
+		padding: 50px 20px 20px 20px;
+	}
+
+	section {
+		padding-top: 110px;
+		margin-top: -110px;
+	}
+
+}
+
+@media all and (max-width: 500px) {
+
+	header, #navtopbar {
+		flex-direction: column;
+	}
+
+	#navsidebar {
+		padding-top: 190px;
+	}
+
+	main {
+		padding: 190px 20px 20px 20px;
+	}
+
+	section {
+		padding-top: 190px;
+		margin-top: -190px;
+	}
+
+}
