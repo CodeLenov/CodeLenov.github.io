@@ -310,3 +310,27 @@ footer p {
 	}
 
 }
+
+/* page navbar - aside
+pages navbar - header
+all css in 1
+make one mediaquery for all css attributes
+change font-family
+resume - a4
+resume as link from #about (show resume)
+articles
+links
+copy header, aside, footer - in all html (and next fix aside in each html)
+
+!!! make padding and margin in em (not px)
+hide navbar on scroll
+responsive header
+fixed sidebar with full height
+responsive sidebar ?
+
+make variables for colors
+attach resume to link <h2>Developer</h2> (???as page or as github project) 
+
+links from roadmap 
+
+article - how make vertical line */
