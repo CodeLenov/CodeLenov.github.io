@@ -62,7 +62,7 @@ header {
 }
 
 header a {
-	padding: 0 4em;
+	padding-left: 4em;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -70,7 +70,7 @@ header a {
 }
 
 header img {
-	width: 3em;
+	width: 2em;
 	height: auto;
 	padding: 0 0.5em;
 }
@@ -99,27 +99,34 @@ header nav {
 /* !!! 3. <aside> !!! */
 
 aside {
-	background-color: #999;
+	background-color: #555;
+	color: #ccc;
 	position: fixed;
 	z-index: 1;
 	top: 0;
-	left: 0;
+	right: 0;
 	width: 7em;
 	height: 100%;
-	overflow-x: hidden;
+	overflow: hidden;
+}
+
+aside div {
+	border-left: 1px solid #999;
+	height: 100%;
 }
 
 #navsidebar {
-	padding-top: 3em;
+	padding-top: 4em;
 }
 
 aside p {
-	text-align: center;
+	padding: 0 0 0.5em 1em;
 }
 
 aside a {
+	color: #ccc;
 	display: block;
-	padding: 1em;
+	padding: 0.5em 1em 0 1em;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -127,7 +134,7 @@ aside a {
 
 main {
 	padding: 3em 2em 2em 2em; /* 3em padding-top = header height; 2em instead body margin (=0) */
-	margin-left: 5em; /* 5em = 7em aside width - 2em main padding */
+	margin-right: 7em; /* = aside width */
 }
 
 section {
@@ -259,44 +266,47 @@ footer p {
 /* ---------------------------------------------------------------------- */
 /* !!! 10. @media query !!! */
 
-@media all and (max-width: 720px) {
+/*@media all and (max-width: 720px) {
 
 	header {
 		justify-content: space-around;
+		height: 5em;
 	}
 
 	#navsidebar {
-		padding-top: 110px;
+		padding-top: 3em;
 	}
 
 	main {
-		padding: 50px 20px 20px 20px;
+		padding: 3em 2em 2em 2em;
 	}
 
 	section {
-		padding-top: 110px;
-		margin-top: -110px;
+		padding-top: 3em;
+		margin-top: -3em;
 	}
 
-}
+}*/
 
 @media all and (max-width: 500px) {
 
-	header, #navtopbar {
+	header {
 		flex-direction: column;
+		height: 4em;
+		padding-bottom: 0.5em;
 	}
 
 	#navsidebar {
-		padding-top: 190px;
+		padding-top: 5em;
 	}
 
 	main {
-		padding: 190px 20px 20px 20px;
+		padding: 4.5em 2em 2em 2em;
 	}
 
 	section {
-		padding-top: 190px;
-		margin-top: -190px;
+		padding-top: 4.5em;
+		margin-top: -4.5em;
 	}
 
 }
