@@ -80,14 +80,11 @@ header p {
 }
 
 header nav {
-	padding-right: 1em;
-}
-
-header nav {
 	list-style-type: none;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 header nav a {
@@ -134,11 +131,11 @@ aside a {
 
 main {
 	padding: 5em 2em 2em 2em; /* 5em padding-top = 3em header height + 2em for space between header and h1 (because body margin =0) */
-	margin-right: 7em; /* = aside width */
+	margin-right: 7em; /* = 7em aside width */
 }
 
 section, h1 {
-	padding-top: 3em; /* 3em padding-top = header height */
+	padding-top: 3em; /* 3em padding-top = 3em header height */
 	margin-top: -3em; /* -3em margin-top = 3em padding-top. It is need for sections links */
 }
 
@@ -157,9 +154,8 @@ section, h1 {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-evenly;
 	text-align: center;
-	gap: 5em;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -266,51 +262,58 @@ footer p {
 /* ---------------------------------------------------------------------- */
 /* !!! 10. @media query !!! */
 
-/*@media all and (max-width: 720px) {
-
-	header {
-		justify-content: space-around;
-		height: 5em;
-	}
-
-	#navsidebar {
-		padding-top: 3em;
-	}
-
-	main {
-		padding: 3em 2em 2em 2em;
-	}
-
-	section {
-		padding-top: 3em;
-		margin-top: -3em;
-	}
-
-}*/
-
 @media all and (max-width: 700px) {
 
 	header {
 		flex-direction: column;
 		height: 4em;
-		padding-bottom: 0.5em; /* for correct view */
+		/*padding-bottom: 1em;*/ /* for correct view */
 	}
 
 	header a {
-		padding: 0; /* for centering <a> with favicon */
+		padding: 0; /* for centering <a> (with favicon) */
 	}
 
 	aside nav {
-		padding-top: 6.5em;
+		padding-top: 7em; /* 7em padding-top = 4em header height + 1em header padding-bottom + 2em for space between header and h1 (because body margin =0) */
 	}
 
 	main {
-		padding: 6.5em 2em 2em 2em;
+		padding: 7em 2em 2em 2em; /* 7em padding-top = 4em header height + 1em header padding-bottom + 2em for space between header and h1 (because body margin =0) */
 	}
 
-	section {
-		padding-top: 4.5em;
-		margin-top: -4.5em;
+	section, h1 {
+		padding-top: 5em; /* 5em padding-top = 4em header height + 1em header padding-bottom */
+		margin-top: -5em; /* -5em margin-top = 5em padding-top. It is need for sections links */
+	}
+
+}
+
+@media all and (max-width: 500px) {
+
+	header {
+		height: 10em;
+	}
+
+	header nav {
+		flex-direction: column;
+	}
+
+	header nav a {
+		padding-bottom: 0.5em; /* for correct view */
+	}
+
+	aside nav {
+		padding-top: 12em; /* 12em padding-top = 10em header height + 2em for space between header and h1 (because body margin =0) */
+	}
+
+	main {
+		padding: 12em 2em 2em 2em; /* 12em padding-top = 10em header height + 2em for space between header and h1 (because body margin =0) */
+	}
+
+	section, h1 {
+		padding-top: 10em; /* 10em padding-top = 10em header height */
+		margin-top: -10em; /* -10em margin-top = 10em padding-top. It is need for sections links */
 	}
 
 }
