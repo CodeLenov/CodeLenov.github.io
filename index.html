@@ -4,12 +4,13 @@ body
 	2. <header>
 	3. <aside>
 	main
-		4. <section id="about">
-		5. <section id="projects">
-		6. <section id="divs">
-		7. <section id="contact">
+		4. <h1 id="top">
+		5. <section id="about">
+		6. <section id="projects">
+		7. <section id="divs">
+		8. <section id="contact">
 	/main
-	8. <footer>
+	9. <footer>
 /body
 -->
 
@@ -39,13 +40,13 @@ body
 		<p><strong>CodeLenov</strong></p>
 	</a>
 
-	<strong>
 	<nav id="navtopbar">
 		<a href="./projects.html">Projects</a>
 		<a href="./articles.html">Articles</a>
 		<a href="./links.html">Links</a>
 	</nav>
-	</strong>
+
+	<button id="toggleAside" type="button">&#9776</button>
 
 </header>
 
@@ -56,7 +57,7 @@ body
 
 	<div> <!-- for vertical line between <main> and right <aside> -->
 		<nav id="navsidebar">
-			<p>Sections</p>
+			<a href="#top">Sections</a>
 			<a href="#about">About</a>
 			<a href="#projects">Projects</a>
 			<a href="#articles">Articles</a>
@@ -66,12 +67,15 @@ body
 
 </aside>
 
+<!-- ---------------------------------------------------------------------- -->
+<!-- !!! 4. <h1 id="top"> !!! -->
+
 <main>
 
-<h1>Hi. I am Oleksii</h1>
+<h1 id="top">Hi. I am Oleksii</h1>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 4. <section id="about"> !!! -->
+<!-- !!! 5. <section id="about"> !!! -->
 
 <section id="about">
 
@@ -83,7 +87,7 @@ body
 
 		<div>
 
-			<div id="about_skills">
+			<div id="about_skills"> <!-- <div> for vertical line -->
 				<ul>
 					<li>Python<li>
 					<li>SQL</li>
@@ -124,7 +128,7 @@ body
 </section>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 5. <section id="projects"> !!! -->
+<!-- !!! 6. <section id="projects"> !!! -->
 
 <section id="projects">
 
@@ -171,9 +175,9 @@ body
 </section>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 6. <section id="divs"> !!! -->
+<!-- !!! 7. <section id="divs"> !!! -->
 
-<section id="articles" class="flex">
+<section id="articles">
 
 	<a class="show_all" href="./articles.html">
 		<h2>Articles</h2>
@@ -186,7 +190,7 @@ body
 </section>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 7. <section id="contact"> !!! -->
+<!-- !!! 8. <section id="contact"> !!! -->
 
 <section id="contact">
 	<address>
@@ -200,7 +204,7 @@ body
 </main>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 8. <footer> !!! -->
+<!-- !!! 9. <footer> !!! -->
 
 <footer>
 	<address>

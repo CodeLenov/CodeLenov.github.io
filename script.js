@@ -14,3 +14,17 @@ window.onscroll = function() {
 	}
 	previousPosition = currentPosition;
 }
+
+const toggleAside = document.querySelector('#toggleAside');
+const aside = document.querySelector('aside');
+const main = document.querySelector('main');
+
+toggleAside.addEventListener('click', () => {
+	if (aside.style.display === 'none') {
+		aside.style.display = 'block';
+		main.style.marginRight = '7em';
+	} else {
+		aside.style.display = 'none';
+		main.style.marginRight = '0';
+	}
+});

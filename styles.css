@@ -83,14 +83,14 @@ header nav {
 	padding-right: 1em;
 }
 
-#navtopbar {
+header nav {
 	list-style-type: none;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
 }
 
-#navtopbar a {
+header nav a {
 	display: block;
 	padding: 0 1.5em;
 }
@@ -115,12 +115,12 @@ aside div {
 	height: 100%;
 }
 
-#navsidebar {
-	padding-top: 4em;
+aside nav {
+	padding-top: 5em; /* 5em padding-top = 3em header height + 2em for space between header and h1 (because body margin =0) */
 }
 
-aside p {
-	padding: 0 0 0.5em 1em;
+aside a:first-of-type {
+	padding: 0 0 1em 1em;
 }
 
 aside a {
@@ -133,13 +133,13 @@ aside a {
 /* !!! 4. <main> !!! */
 
 main {
-	padding: 3em 2em 2em 2em; /* 3em padding-top = header height; 2em instead body margin (=0) */
+	padding: 5em 2em 2em 2em; /* 5em padding-top = 3em header height + 2em for space between header and h1 (because body margin =0) */
 	margin-right: 7em; /* = aside width */
 }
 
-section {
-	padding-top: 3em; /* 3em padding-top = header height; 2em instead body margin (=0) */
-	margin-top: -3em; /* -3em margin-top = 3em padding-top. It is need sections links */
+section, h1 {
+	padding-top: 3em; /* 3em padding-top = header height */
+	margin-top: -3em; /* -3em margin-top = 3em padding-top. It is need for sections links */
 }
 
 .show_all {
@@ -288,20 +288,24 @@ footer p {
 
 }*/
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 700px) {
 
 	header {
 		flex-direction: column;
 		height: 4em;
-		padding-bottom: 0.5em;
+		padding-bottom: 0.5em; /* for correct view */
 	}
 
-	#navsidebar {
-		padding-top: 5em;
+	header a {
+		padding: 0; /* for centering <a> with favicon */
+	}
+
+	aside nav {
+		padding-top: 6.5em;
 	}
 
 	main {
-		padding: 4.5em 2em 2em 2em;
+		padding: 6.5em 2em 2em 2em;
 	}
 
 	section {
@@ -310,27 +314,3 @@ footer p {
 	}
 
 }
-
-/* page navbar - aside
-pages navbar - header
-all css in 1
-make one mediaquery for all css attributes
-change font-family
-resume - a4
-resume as link from #about (show resume)
-articles
-links
-copy header, aside, footer - in all html (and next fix aside in each html)
-
-!!! make padding and margin in em (not px)
-hide navbar on scroll
-responsive header
-fixed sidebar with full height
-responsive sidebar ?
-
-make variables for colors
-attach resume to link <h2>Developer</h2> (???as page or as github project) 
-
-links from roadmap 
-
-article - how make vertical line */
