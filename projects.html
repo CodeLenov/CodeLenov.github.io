@@ -5,11 +5,16 @@ body
 	3. <aside>
 	main
 		4. <h1 id="top">
-		5. <section>
-		6. <section>
-		7. <section>
+		5. <section id="nodejsAndMongodbTop">
+		6. <section id="reactTop">
+		7. <section id="htmlAndCssAdvancedTop">
+		8. <section id="javascriptTop">
+		9. <section id="htmlAndCssIntermediateTop">
+		10. <section id="frontEndFoundationsTop">
+		11. <section id="responsiveWebDesignFcc">
+		12. <section id="foundationsTopFcc">
 	/main
-	8. <footer>
+	13. <footer>
 /body
 -->
 
@@ -20,6 +25,7 @@ body
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="./styles.css" />
+	<script src="./script.js" defer></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Projects | CodeLenov</title>
@@ -35,13 +41,14 @@ body
 
 	<a href="./index.html">
 		<img src="./images/favicon.png" alt="favicon_image" width="50px" />
-		<h1>CodeLenov</h1>
+		<p><strong>CodeLenov</strong></p>
 	</a>
 
 	<nav id="navtopbar">
 		<a href="./projects.html">Projects</a>
 		<a href="./articles.html">Articles</a>
-		<a href="./links.html">Links</a>
+		<a href="https://github.com/CodeLenov">Code</a>
+		<a id="toggleAside">&#9776 Menu</a> <!-- javascript toggle as <a> is simple by CSS, than toggle as <button> -->
 	</nav>
 
 </header>
@@ -51,11 +58,19 @@ body
 
 <aside>
 
-	<nav id="navsidebar">
-		<a href="#">Add links for Sections</a>
-		<a href="#"></a>
-		<a href="#"></a>
-	</nav>
+	<div> <!-- <div> - for vertical line between <main> and right <aside> (CSS) -->
+		<nav id="navsidebar">
+			<a href="#top">Menu</a>
+			<a href="#nodejsAndMongodbTop">NodeJS and MongoDB | TOP</a>
+			<a href="#reactTop">React | TOP</a>
+			<a href="#htmlAndCssAdvancedTop">HTML and CSS Advanced | TOP</a>
+			<a href="#javascriptTop">JavaScript | TOP</a>
+			<a href="#htmlAndCssIntermediateTop">HTML and CSS Advanced | TOP</a>
+			<a href="#frontEndFoundationsTop">Front End Foundations | TOP</a>
+			<a href="#responsiveWebDesignFcc">Responsive Web Design | fCC</a>
+			<a href="#foundationsTopFcc">Foundations TOP | fCC</a>
+		</nav>
+	</div>
 
 </aside>
 
@@ -67,42 +82,103 @@ body
 <h1 id="top">Projects by Themes</h1>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 5. <section> !!! -->
+<!-- !!! 5. <section id="nodejsAndMongodbTop"> !!! -->
 
-<section>
+<section id="nodejsAndMongodbTop">
 
-	<h2>Front End Foundations Course | JavaScript, CSS, HTML, Git | The Odin Project</h2>
+	<h2>NodeJS and MongoDB | Full Stack JavaScript | TOP</h2>
 
-	<div class="flex">
+	<div class="items">
+	</div>
+
+</section>
+
+<!-- ---------------------------------------------------------------------- -->
+<!-- !!! 6. <section id="reactTop"> !!! -->
+
+<section id="reactTop">
+
+	<h2>React | Full Stack JavaScript | TOP</h2>
+
+	<div class="items">
+	</div>
+
+</section>
+
+<!-- ---------------------------------------------------------------------- -->
+<!-- !!! 7. <section id="htmlAndCssAdvancedTop"> !!! -->
+
+<section id="htmlAndCssAdvancedTop">
+
+	<h2>HTML and CSS Advanced | Full Stack JavaScript | TOP</h2>
+
+	<div class="items">
+	</div>
+
+</section>
+
+<!-- ---------------------------------------------------------------------- -->
+<!-- !!! 8. <section id="javascriptTop"> !!! -->
+
+<section id="javascriptTop">
+
+	<h2>JavaScript | Full Stack JavaScript | TOP</h2>
+
+	<div class="items">
+	</div>
+
+</section>
+
+<!-- ---------------------------------------------------------------------- -->
+<!-- !!! 9. <section id="htmlAndCssIntermediateTop"> !!! -->
+
+<section id="htmlAndCssIntermediateTop">
+
+	<h2>HTML and CSS Intermediate | Full Stack JavaScript | TOP</h2>
+
+	<div class="items">
+
+		<a href="https://codelenov.github.io/sign-up_form_top">
+			<img src="./images/sign-up_form_top.png" alt="sign-up_form_top_image" width="300px"/>
+			<p>Sign-up Form | TOP<br /><em>HTML and CSS Intermediate</em></p>
+		</a>
+
+	</div>
+
+</section>
+
+<!-- ---------------------------------------------------------------------- -->
+<!-- !!! 10. <section id="frontEndFoundationsTop"> !!! -->
+
+<section id="frontEndFoundationsTop">
+
+	<h2>Front End Foundations | JavaScript, CSS, HTML, Git | The Odin Project</h2>
+
+	<div class="items">
 
 		<a href="https://codelenov.github.io/calculator_top">
 			<img src="./images/calculator_top.png" alt="calculator_top_image" width="300px"/>
-			<p>Calculator | TOP</p>
-			<p><em>JavaScript, CSS, HTML</em></p>
+			<p>Calculator | TOP<br /><em>JavaScript, CSS, HTML</em></p>
 		</a>
 
 		<a href="https://codelenov.github.io/etch-a-sketch_top">
 			<img src="./images/etch-a-sketch_top.png" alt="etch-a-sketch_top_image" width="300px"/>
-			<p>Etch-a-Sketch | TOP</p>
-			<p><em>JavaScript, CSS, HTML</em></p>
+			<p>Etch-a-Sketch | TOP<br /><em>JavaScript, CSS, HTML</em></p>
 		</a>
 
 		<a href="https://codelenov.github.io/rock_paper_scissors_top">
 			<img src="./images/rock_paper_scissors_top.png" alt="rock_paper_scissors_top_image" width="300px"/>
-			<p>Rock Paper Scissors | TOP</p>
-			<p><em>JavaScript, CSS, HTML</em></p>
+			<p>Rock Paper Scissors | TOP<br /><em>JavaScript, CSS, HTML</em></p>
 		</a>
 
 		<a href="https://codelenov.github.io/landing_page_top">
 			<img src="./images/landing_page_top.png" alt="landing_page_top_image" width="300px" />
-			<p>Landing Page | TOP</p>
-			<p><em>CSS, HTML</em></p>
+			<p>Landing Page | TOP<br /><em>CSS, HTML</em></p>
 		</a>
 
 		<a href="https://codelenov.github.io/recipes_top">
 			<img src="./images/recipes_top.png" alt="recipes_top_image" width="300px" />
-			<p>Recipes | TOP</p>
-			<p><em>HTML</em></p>
+			<p>Recipes | TOP<br /><em>HTML</em></p>
 		</a>
 
 	</div>
@@ -110,42 +186,37 @@ body
 </section>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 6. <section> !!! -->
+<!-- !!! 11. <section id="responsiveWebDesignFcc"> !!! -->
 
-<section>
+<section id="responsiveWebDesignFcc">
 
 	<h2>Responsive Web Design | CSS, HTML | freeCodeCamp</h2>
 
-	<div class="flex">
+	<div class="items">
 
 		<a href="https://codelenov.github.io/personal_portfolio_page_fcc">
 			<img src="./images/personal_portfolio_page_fcc.png" alt="personal_portfolio_page_fcc_image" width="300px" />
-			<p>Personal Portfolio Page | fCC</p>
-			<p><em>CSS, HTML</em></p>
+			<p>Personal Portfolio Page | fCC<br /><em>CSS, HTML</em></p>
 		</a>
 
 		<a href="https://codelenov.github.io/product_landing_page_fcc">
 			<img src="./images/product_landing_page_fcc.png" alt="product_landing_page_fcc_image" width="300px" />
-			<p>Product Landing Page | fCC</p>
-			<p><em>CSS, HTML</em></p>
+			<p>Product Landing Page | fCC<br /><em>CSS, HTML</em></p>
 		</a>
 
 		<a href="https://codelenov.github.io/technical_documentation_page_fcc">
 			<img src="./images/technical_documentation_page_fcc.png" alt="technical_documentation_page_fcc_image" width="300px" />
-			<p>Technical Documentation Page | fCC</p>
-			<p><em>CSS, HTML</em></p>
+			<p>Technical Documentation Page | fCC<br /><em>CSS, HTML</em></p>
 		</a>
 
 		<a href="https://codelenov.github.io/tribute_page_fcc">
 			<img src="./images/tribute_page_fcc.png" alt="tribute_page_fcc_image" width="300px" />
-			<p>Tribute Page | fCC</p>
-			<p><em>CSS, HTML</em></p>
+			<p>Tribute Page | fCC<br /><em>CSS, HTML</em></p>
 		</a>
 
 		<a href="https://codelenov.github.io/survey_form_fcc">
 			<img src="./images/survey_form_fcc.png" alt="survey_form_image" width="300px" />
-			<p>Survey Form | fCC</p>
-			<p><em>CSS, HTML</em></p>
+			<p>Survey Form | fCC<br /><em>CSS, HTML</em></p>
 		</a>
 
 	</div>
@@ -153,48 +224,42 @@ body
 </section>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 7. <section> !!! -->
+<!-- !!! 12. <section id="foundationsTopFcc"> !!! -->
 
-<section>
+<section id="foundationsTopFcc">
 
 	<h2>Foundations The_Odin_Project Remix | CSS, HTML | freeCodeCamp</h2>
 
-	<div class="flex">
+	<div class="items">
 
 		<a href="https://codelenov.github.io/descendant_combinator_fcc">
 			<img src="./images/descendant_combinator_fcc.png" alt="descendant_combinator_fcc_image" width="300px" />
-			<p>Descendant Combinator | fCC</p>
-			<p><em>CSS, HTML</em></p>
+			<p>Descendant Combinator | fCC<br /><em>CSS, HTML</em></p>
 		</a>
 
 		<a href="https://codelenov.github.io/chaining_selectors_fcc">
 			<img src="./images/chaining_selectors_fcc.png" alt="chaining_selectors_fcc_image" width="300px" />
-			<p>Chaining Selectors | fCC</p>
-			<p><em>CSS, HTML</em></p>
+			<p>Chaining Selectors | fCC<br /><em>CSS, HTML</em></p>
 		</a>
 
 		<a href="https://codelenov.github.io/grouping_selectors_fcc">
 			<img src="./images/grouping_selectors_fcc.png" alt="grouping_selectors_fcc_image" width="300px" />
-			<p>Grouping Selectors | fCC</p>
-			<p><em>CSS, HTML</em></p>
+			<p>Grouping Selectors | fCC<br /><em>CSS, HTML</em></p>
 		</a>
 
 		<a href="https://codelenov.github.io/class_and_id_selectors_fcc">
 			<img src="./images/class_and_id_selectors_fcc.png" alt="class_and_id_selectors_fcc_image" width="300px" />
-			<p>Class and ID Selectors | fCC</p>
-			<p><em>CSS, HTML</em></p>
+			<p>Class and ID Selectors | fCC<br /><em>CSS, HTML</em></p>
 		</a>
 
 		<a href="https://codelenov.github.io/css_adding_methods_fcc">
 			<img src="./images/css_adding_methods_fcc.png" alt="css_adding_methods_fcc_image" width="300px" />
-			<p>CSS Adding Methods | fCC</p>
-			<p><em>CSS, HTML</em></p>
+			<p>CSS Adding Methods | fCC<br /><em>CSS, HTML</em></p>
 		</a>
 
 		<a href="https://codelenov.github.io/recipe_page_fcc">
 			<img src="./images/recipe_page_fcc.png" alt="recipe_page_fcc_image" width="300px" />
-			<p>Recipe Page | fCC</p>
-			<p><em>HTML</em></p>
+			<p>Recipe Page | fCC<br /><em>HTML</em></p>
 		</a>
 
 	</div>
@@ -204,15 +269,13 @@ body
 </main>
 
 <!-- ---------------------------------------------------------------------- -->
-<!-- !!! 8. <footer> !!! -->
+<!-- !!! 13. <footer> !!! -->
 
 <footer>
-	<address>
-		<a href="mailto:oleksii.klymchuk@tutamail.com">
-			<p>oleksii.klymchuk@tutamail.com</p>
-		</a>
-	</address>
+
+	<a href="mailto:oleksii.klymchuk@tutamail.com"><address>oleksii.klymchuk@tutamail.com</address></a>
 	<p>(CodeLenov) Ol Klym, 2024</p>
+
 </footer>
 
 </body>

@@ -18,6 +18,7 @@ body
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="./styles.css" />
+	<script src="./script.js" defer></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Articles | CodeLenov</title>
@@ -33,13 +34,14 @@ body
 
 	<a href="./index.html">
 		<img src="./images/favicon.png" alt="favicon_image" width="50px" />
-		<h1>CodeLenov</h1>
+		<p><strong>CodeLenov</strong></p>
 	</a>
 
 	<nav id="navtopbar">
 		<a href="./projects.html">Projects</a>
 		<a href="./articles.html">Articles</a>
-		<a href="./links.html">Links</a>
+		<a href="https://github.com/CodeLenov">Code</a>
+		<a id="toggleAside">&#9776 Menu</a> <!-- javascript toggle as <a> is simple by CSS, than toggle as <button> -->
 	</nav>
 
 </header>
@@ -49,11 +51,12 @@ body
 
 <aside>
 
-	<nav id="navsidebar">
-		<a href="#">Add links for Sections</a>
-		<a href="#"></a>
-		<a href="#"></a>
-	</nav>
+	<div> <!-- <div> - for vertical line between <main> and right <aside> (CSS) -->
+		<nav id="navsidebar">
+			<a href="#top">Menu</a>
+			<a href=""></a>
+		</nav>
+	</div>
 
 </aside>
 
@@ -71,12 +74,11 @@ body
 
 	<h2>Flexbox | CSS</h2>
 
-	<div class="flex">
+	<div class="items">
 
 		<a href="">
 			<img src="" alt="_image" width="300px"/>
-			<p> | CSS</p>
-			<p><em>JavaScript, CSS, HTML</em></p>
+			<p> | CSS<br /><em>JavaScript, CSS, HTML</em></p>
 		</a>
 
 	</div>
@@ -89,12 +91,10 @@ body
 <!-- !!! 6. <footer> !!! -->
 
 <footer>
-	<address>
-		<a href="mailto:oleksii.klymchuk@tutamail.com">
-			<p>oleksii.klymchuk@tutamail.com</p>
-		</a>
-	</address>
+
+	<a href="mailto:oleksii.klymchuk@tutamail.com"><address>oleksii.klymchuk@tutamail.com</address></a>
 	<p>(CodeLenov) Ol Klym, 2024</p>
+
 </footer>
 
 </body>

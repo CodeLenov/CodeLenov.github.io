@@ -12,12 +12,12 @@ Full Stack JavaScript | Getting Hired, NodeJS and MongoDB, React, HTML and CSS A
 - HTML and CSS Intermediate
 	- 1. Sign-up Form | HTML and CSS Intermediate | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/02 (01/29) | The Odin Project | 2024
 
-Front End Foundations Course | JavaScript, CSS, HTML, Git | The Odin Project
--	5. Calculator | JavaScript, CSS, HTML | Front End Foundations Course (JavaScript, CSS, HTML, Git) | 05/05 | The Odin Project | 2024
--	4. Etch-a-Sketch| JavaScript, CSS, HTML | Front End Foundations Course (JavaScript, CSS, HTML, Git) | 04/05 | The Odin Project | 2024
--	3. Rock Paper Scissors | JavaScript, CSS, HTML | Front End Foundations Course (JavaScript, CSS, HTML, Git) | 03/05 | The Odin Project | 2024
--	2. Landing Page | CSS, HTML | Front End Foundations Course (JavaScript, CSS, HTML, Git) | 02/05 | The Odin Project | 2024
--	1. Recipes | HTML | Front End Foundations Course (JavaScript, CSS, HTML, Git) | 01/05 | The Odin Project | 2024
+Front End Foundations | JavaScript, CSS, HTML, Git | The Odin Project
+-	5. Calculator | JavaScript, CSS, HTML | Front End Foundations (JavaScript, CSS, HTML, Git) | 05/05 | The Odin Project | 2024
+-	4. Etch-a-Sketch| JavaScript, CSS, HTML | Front End Foundations (JavaScript, CSS, HTML, Git) | 04/05 | The Odin Project | 2024
+-	3. Rock Paper Scissors | JavaScript, CSS, HTML | Front End Foundations (JavaScript, CSS, HTML, Git) | 03/05 | The Odin Project | 2024
+-	2. Landing Page | CSS, HTML | Front End Foundations (JavaScript, CSS, HTML, Git) | 02/05 | The Odin Project | 2024
+-	1. Recipes | HTML | Front End Foundations (JavaScript, CSS, HTML, Git) | 01/05 | The Odin Project | 2024
 
 Responsive Web Design | CSS, HTML | freeCodeCamp
 -	5. Personal Portfolio Page | CSS, HTML | Responsive Web Design (CSS, HTML) | 05/05 | freeCodeCamp | 2024
