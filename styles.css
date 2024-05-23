@@ -203,20 +203,18 @@ section, h1 {
 /* ---------------------------------------------------------------------- */
 /* !!! 8. <section id="#contact"> !!! */
 
-#contact address {
-	border: 1px solid #ff0;
-}
-
 #contact a {
+	border: 1px solid #ff0;
 	display: flex;
-	flex-wrap: wrap;
+	flex: wrap;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	text-align: center;
+	align-items: center;
 }
 
 #contact p {
-	flex: 1 1 0;
+	margin: auto;
 }
 
 #contact button {
@@ -225,7 +223,8 @@ section, h1 {
 	font-size: 1.5em;
 	text-align: center;
 	border: none;
-	flex: 1 1 0;
+	width: 50%;
+	height: 2em;
 }
 
 #contact button:hover {
@@ -291,6 +290,18 @@ footer a, footer p {
 		margin-top: -5em; /* -5em margin-top = 5em padding-top. It is need for sections links */
 	}
 
+	#contact a {
+		flex-direction: column;
+	}
+
+	#contact p {
+		margin: 0.5em;
+	}
+
+	#contact button {
+		width: 100%;
+	}
+
 }
 
 @media all and (max-width: 500px) {
@@ -318,6 +329,18 @@ footer a, footer p {
 	section, h1 {
 		padding-top: 10em; /* 10em padding-top = 10em header height */
 		margin-top: -10em; /* -10em margin-top = 10em padding-top. It is need for sections links */
+	}
+
+	#contact a {
+		flex-direction: column;
+	}
+
+	#contact p {
+		margin: 0.5em;
+	}
+
+	#contact button {
+		width: 100%;
 	}
 
 }
