@@ -1,5 +1,8 @@
+// !!! 1. hide header on scroll !!!
+// !!! 2. toggle aside !!!
+
 // ----------------------------------------------------------------------
-// !!! hide header on scroll !!!
+// !!! 1. hide header on scroll !!!
 
 let previousPosition = window.pageYOffset;
 let x700 = window.matchMedia('(max-width: 700px)');
@@ -23,10 +26,10 @@ window.onscroll = function() {
 
 	previousPosition = currentPosition;
 
-}
+};
 
 // ----------------------------------------------------------------------
-// !!! toggle aside !!!
+// !!! 2. toggle aside !!!
 
 const toggleAside = document.querySelector('#toggleAside');
 const aside = document.querySelector('aside');

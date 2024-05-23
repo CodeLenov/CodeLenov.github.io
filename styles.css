@@ -248,14 +248,15 @@ footer {
 	font-size: 0.75em;
 	position: relative;
 	z-index: 2;
-	bottom: 0px;
-	left: 0px;
-	margin: -16px -20px -16px -20px;
-	padding: 10px;
+	bottom: 0;
+	left: 0;
 	width: 100%;
+	padding: 0.5em 0;
 }
 
-footer p {
+footer a, footer p {
+	display: block;
+	padding-right: 1em;
 	margin: 0;
 }
 
@@ -266,12 +267,15 @@ footer p {
 
 	header {
 		flex-direction: column;
-		height: 4em;
-		/*padding-bottom: 1em;*/ /* for correct view */
+		height: 5em;
 	}
 
 	header a {
 		padding: 0; /* for centering <a> (with favicon) */
+	}
+
+	header nav a {
+		padding-bottom: 1em; /* for correct view */
 	}
 
 	aside nav {
