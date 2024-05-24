@@ -1,5 +1,5 @@
-// !!! 1. hide header on scroll !!!
-// !!! 2. toggle aside !!!
+// 1. hide header on scroll
+// 2. toggle aside
 
 // ----------------------------------------------------------------------
 // !!! 1. hide header on scroll !!!
