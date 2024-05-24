@@ -96,6 +96,14 @@ header nav a {
 	padding: 0 1.5em;
 }
 
+#toggleAside {
+	color: #ff9;
+}
+
+#toggleAside:hover {
+	color: #ff0;
+}
+
 /* ---------------------------------------------------------------------- */
 /* !!! 3. <aside> !!! */
 
@@ -106,28 +114,30 @@ aside {
 	z-index: 1;
 	top: 0;
 	right: 0;
-	width: 7em;
+	width: 13em;
 	height: 100%;
-	overflow: hidden;
+	overflow: auto;
+	text-align: left;
 }
 
+/* <div> - for vertical line between <main> and right <aside> */
 aside div {
 	border-left: 1px solid #999;
 	height: 100%;
 }
 
 aside nav {
-	padding-top: 5em; /* 5em padding-top = 3em header height + 2em for space between header and h1 (because body margin =0) */
-}
-
-aside a:first-of-type {
-	padding: 0 0 1em 1em;
+	padding: 4em 1em 0 1em /* 4em padding-top = 3em header height + 1em */
 }
 
 aside a {
 	color: #ccc;
-	display: block;
-	padding: 0.5em 1em 0 1em;
+	font-size: 0.85em;	
+}
+
+aside a:first-of-type {
+	font-size: initial;
+	text-align: center;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -135,7 +145,7 @@ aside a {
 
 main {
 	padding: 5em 2em 2em 2em; /* 5em padding-top = 3em header height + 2em for space between header and h1 (because body margin =0) */
-	margin-right: 7em; /* = 7em aside width */
+	margin-right: 13em; /* = 13em aside width */
 }
 
 section, h1 {
@@ -145,8 +155,7 @@ section, h1 {
 
 .items {
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
+	flex-flow: row wrap;
 	justify-content: space-evenly;
 	text-align: center;
 }
@@ -238,7 +247,7 @@ footer a, footer p {
 	}
 
 	aside nav {
-		padding-top: 7em; /* 7em padding-top = 5em header height + 2em for space between header and h1 (because body margin =0) */
+		padding-top: 6em; /* 6em padding-top = 5em header height + 1em */
 	}
 
 	main {
@@ -279,7 +288,7 @@ footer a, footer p {
 	}
 
 	aside nav {
-		padding-top: 12em; /* 12em padding-top = 10em header height + 2em for space between header and h1 (because body margin =0) */
+		padding-top: 11em; /* 11em padding-top = 10em header height + 1em */
 	}
 
 	main {
