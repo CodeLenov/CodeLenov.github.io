@@ -96,13 +96,7 @@ header nav a {
 	padding: 0 1.5em;
 }
 
-#toggleAside {
-	color: #ff9;
-}
 
-#toggleAside:hover {
-	color: #ff0;
-}
 
 /* ---------------------------------------------------------------------- */
 /* !!! 3. <aside> !!! */

@@ -31,11 +31,11 @@ window.onscroll = function() {
 // ----------------------------------------------------------------------
 // !!! 2. toggle aside !!!
 
-const toggleAside = document.querySelector('#toggleAside');
+const navToggleAside = document.querySelector('#navToggleAside');
 const aside = document.querySelector('aside');
 const main = document.querySelector('main');
 
-toggleAside.addEventListener('click', () => {
+navToggleAside.addEventListener('click', () => {
 
 	if (aside.style.display === 'none') {
 		aside.style.display = 'block';
