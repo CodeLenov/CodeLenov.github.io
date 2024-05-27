@@ -39,7 +39,7 @@ navToggleAside.addEventListener('click', () => {
 
 	if (aside.style.display === 'none') {
 		aside.style.display = 'block';
-		main.style.marginRight = '15em';
+		main.style.marginRight = '13em';
 	} else {
 		aside.style.display = 'none';
 		main.style.marginRight = '0';
