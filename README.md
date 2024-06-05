@@ -10,6 +10,7 @@ Full Stack JavaScript | Getting Hired, NodeJS and MongoDB, React, HTML and CSS A
 - HTML and CSS Advanced
 - JavaScript
 - HTML and CSS Intermediate
+	- 2. Admin Dashboard | HTML and CSS Intermediate | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 02/02 (02/29) | The Odin Project | 2024
 	- 1. Sign-up Form | HTML and CSS Intermediate | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/02 (01/29) | The Odin Project | 2024
 
 Front End Foundations | JavaScript, CSS, HTML, Git | The Odin Project
