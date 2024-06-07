@@ -162,6 +162,10 @@ section, h1 {
 	color: #ff0;
 }
 
+hgroup p {
+	text-align: center;
+}
+
 /* ---------------------------------------------------------------------- */
 /* !!! 5. index.html <section id="#contact"> !!! */
 
