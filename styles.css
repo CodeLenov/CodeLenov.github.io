@@ -12,11 +12,12 @@
 /* !!! 1. <body> !!! */
 
 body {
+	margin: 0;
+	overflow: auto;
+	text-align: justify;
 	background-color: #555;
 	color: #fff;
 	font-family: 'Lucida Console', 'Courier New', monospace;
-	text-align: justify;
-	margin: 0;
 }
 
 a {
@@ -45,6 +46,10 @@ h2:hover {
 h3 {
 	color: #ff9;
 	padding-left: 4em;
+}
+
+img {
+	max-width: 300px;
 }
 
 /* ---------------------------------------------------------------------- */
