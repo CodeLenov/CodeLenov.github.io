@@ -151,7 +151,7 @@ section, h1 {
 	margin-top: -3em; /* -3em margin-top = 3em padding-top. It is need for sections links */
 }
 
-.containerFlexbox{
+.container{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
