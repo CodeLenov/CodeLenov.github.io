@@ -154,6 +154,7 @@ section, h1 {
 .container{
 	display: flex;
 	flex-flow: row wrap;
+	gap: 2em;
 	justify-content: space-evenly;
 	text-align: center;
 }
