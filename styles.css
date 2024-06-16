@@ -146,12 +146,17 @@ main {
 	margin-right: 13em; /* = 13em aside width */
 }
 
-section, h1 {
+main section, nain h1 {
 	padding-top: 3em; /* 3em padding-top = 3em header height */
 	margin-top: -3em; /* -3em margin-top = 3em padding-top. It is need for sections links */
 }
 
-.container{
+main hgroup p {
+	text-align: center;
+	color: #ff0;
+}
+
+main .container{
 	display: flex;
 	flex-flow: row wrap;
 	gap: 2em;
@@ -159,25 +164,20 @@ section, h1 {
 	text-align: center;
 }
 
-.showMore {
+main .showMore {
 	color: #ff9;
 	display: block;
 	text-align: center;
 }
 
-.showMore:hover {
-	color: #ff0;
-}
-
-hgroup p {
-	text-align: center;
+main .showMore:hover {
 	color: #ff0;
 }
 
 /* ---------------------------------------------------------------------- */
 /* !!! 5. index.html <section id="#contact"> !!! */
 
-#contactMail {
+main #contactMail {
 	border: 1px solid #ff0;
 	display: flex;
 	flex-direction: row;
@@ -186,11 +186,11 @@ hgroup p {
 	align-items: center;
 }
 
-#contactMail p {
+main #contactMail p {
 	margin: auto;
 }
 
-#contactMail button {
+main #contactMail button {
 	background-color: #555;
 	color: #ff0;
 	font-size: 1.5em;
@@ -200,12 +200,12 @@ hgroup p {
 	height: 2em;
 }
 
-#contactMail button:hover {
+main #contactMail button:hover {
 	background-color: #ff9;
 	color: #555;
 }
 
-#contactMail button:active {
+main #contactMail button:active {
 	background-color: #ff0;
 	color: #555;
 }
@@ -258,20 +258,20 @@ footer a, footer p {
 		padding: 7em 2em 2em 2em; /* 7em padding-top = 5em header height+ 2em for space between header and h1 (because body margin =0) */
 	}
 
-	section, h1 {
+	main section, main h1 {
 		padding-top: 5em; /* 5em padding-top = 5em header height */
 		margin-top: -5em; /* -5em margin-top = 5em padding-top. It is need for sections links */
 	}
 
-	#contactMail {
+	main #contactMail {
 		flex-direction: column;
 	}
 
-	#contactMail p {
+	main #contactMail p {
 		margin: 0.5em;
 	}
 
-	#contactMail button {
+	main #contactMail button {
 		width: 100%;
 	}
 
@@ -299,20 +299,20 @@ footer a, footer p {
 		padding: 12em 2em 2em 2em; /* 12em padding-top = 10em header height + 2em for space between header and h1 (because body margin =0) */
 	}
 
-	section, h1 {
+	main section, main h1 {
 		padding-top: 10em; /* 10em padding-top = 10em header height */
 		margin-top: -10em; /* -10em margin-top = 10em padding-top. It is need for sections links */
 	}
 
-	#contactMail {
+	main #contactMail {
 		flex-direction: column;
 	}
 
-	#contactMail p {
+	main #contactMail p {
 		margin: 0.5em;
 	}
 
-	#contactMail button {
+	main #contactMail button {
 		width: 100%;
 	}
 
