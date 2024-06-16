@@ -18,6 +18,7 @@ Front End Foundations | JavaScript, CSS, HTML, Git | The Odin Project
 -	5. Calculator | JavaScript, CSS, HTML | Front End Foundations (JavaScript, CSS, HTML, Git) | 05/05 | The Odin Project | 2024
 -	4. Etch-a-Sketch| JavaScript, CSS, HTML | Front End Foundations (JavaScript, CSS, HTML, Git) | 04/05 | The Odin Project | 2024
 -	3. Rock Paper Scissors | JavaScript, CSS, HTML | Front End Foundations (JavaScript, CSS, HTML, Git) | 03/05 | The Odin Project | 2024
+-	2.9. Fizz Buzz | JavaScript, CSS, HTML | Front End Foundations (JavaScript, CSS, HTML, Git) | 02.9/05 | The Odin Project | 2024
 -	2. Landing Page | CSS, HTML | Front End Foundations (JavaScript, CSS, HTML, Git) | 02/05 | The Odin Project | 2024
 -	1. Recipes | HTML | Front End Foundations (JavaScript, CSS, HTML, Git) | 01/05 | The Odin Project | 2024
 
