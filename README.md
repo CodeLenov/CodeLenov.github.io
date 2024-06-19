@@ -2,17 +2,24 @@
 CodeLenov | Personal Website (CodeLenov.github.io) - https://codelenov.github.io/ | Getting Hired | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/02 (28/29) | The Odin Project | 2024
 
 Full Stack JavaScript | Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate | The Odin Project
+
 - Getting Hired
-	- 2. Resume - https://codelenov.github.io/resume | Getting Hired | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 02/02 (29/29) | The Odin Project | 2024
-	- 1. Personal Website (CodeLenov.github.io) - https://codelenov.github.io/ | Getting Hired | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/02 (28/29) | The Odin Project | 2024
+-	2. Resume - https://codelenov.github.io/resume | Getting Hired | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 02/02 (29/29) | The Odin Project | 2024
+-	1. Personal Website (CodeLenov.github.io) - https://codelenov.github.io/ | Getting Hired | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/02 (28/29) | The Odin Project | 2024
+
 - NodeJS and MongoDB
+
 - React
+
 - HTML and CSS Advanced
-	- 1. Homepage | HTML and CSS Advanced | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/01 (15/29) | The Odin Project | 2024
+-	1. Homepage | HTML and CSS Advanced | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/01 (15/29) | The Odin Project | 2024
+
 - JavaScript
+-	1. Library | JavaScript | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/12 (03/29) | The Odin Project | 2024
+
 - HTML and CSS Intermediate
-	- 2. Admin Dashboard | HTML and CSS Intermediate | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 02/02 (02/29) | The Odin Project | 2024
-	- 1. Sign-up Form | HTML and CSS Intermediate | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/02 (01/29) | The Odin Project | 2024
+-	2. Admin Dashboard | HTML and CSS Intermediate | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 02/02 (02/29) | The Odin Project | 2024
+-	1. Sign-up Form | HTML and CSS Intermediate | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/02 (01/29) | The Odin Project | 2024
 
 Front End Foundations | JavaScript, CSS, HTML, Git | The Odin Project
 -	5. Calculator | JavaScript, CSS, HTML | Front End Foundations (JavaScript, CSS, HTML, Git) | 05/05 | The Odin Project | 2024
