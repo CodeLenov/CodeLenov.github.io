@@ -15,6 +15,7 @@ Full Stack JavaScript | Getting Hired, NodeJS and MongoDB, React, HTML and CSS A
 -	1. Homepage | HTML and CSS Advanced | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/01 (15/29) | The Odin Project | 2024
 
 - JavaScript
+-	2. Tic Tac Toe | JavaScript | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 02/12 (04/29) | The Odin Project | 2024
 -	1. Library | JavaScript | Full Stack JavaScript (Getting Hired, NodeJS and MongoDB, React, HTML and CSS Advanced, JavaScript, HTML and CSS Intermediate) | 01/12 (03/29) | The Odin Project | 2024
 
 - HTML and CSS Intermediate
