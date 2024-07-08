@@ -25,8 +25,9 @@ a {
 	color: #fff;
 }
 
-a:hover {
+a:hover, a:focus, a:active {
 	color: #ff0;
+	cursor: pointer;
 }
 
 h1 {
