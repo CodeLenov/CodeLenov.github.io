@@ -203,11 +203,18 @@ main #contactMail button {
 main #contactMail button:hover {
 	background-color: #ff9;
 	color: #555;
+	cursor: pointer;
+}
+
+main #contactMail button:focus {
+	border: 1px solid black;
+	cursor: pointer;
 }
 
 main #contactMail button:active {
 	background-color: #ff0;
 	color: #555;
+	cursor: pointer;
 }
 
 /* ---------------------------------------------------------------------- */
